@@ -7,7 +7,6 @@
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>library-domain</artifactId>
-	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>

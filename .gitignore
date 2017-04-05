@@ -1,0 +1,6 @@
+/library-webapp/target/*
+!/library-webapp/target
+!/library-webapp/target/.gitkeep
+/library-domain/target/*
+!/library-domain/target/
+!/library-domain/target/.gitkeep
