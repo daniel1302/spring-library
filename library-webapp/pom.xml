@@ -8,6 +8,14 @@
 	</parent>
 	<artifactId>library-webapp</artifactId>
 	<packaging>war</packaging>
+        
+        
+        <repositories>
+            <repository>
+                <id>bintray</id>
+                <url>https://jcenter.bintray.com/</url>
+            </repository>
+        </repositories>
 	<dependencies>
 		<dependency>
 			<groupId>edu.pk.library</groupId>
@@ -24,5 +32,12 @@
 			<artifactId>spring-context</artifactId>
 			<version>4.1.1.RELEASE</version>
 		</dependency>
+                <!-- https://mvnrepository.com/artifact/com.lyncode/jtwig-spring -->
+                <dependency>
+                    <groupId>org.jtwig</groupId>
+                    <artifactId>jtwig-spring</artifactId>
+                    <version>5.85.3.RELEASE</version>
+                </dependency>
+
 	</dependencies>
 </project>

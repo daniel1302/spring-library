@@ -13,12 +13,12 @@
 	<context:component-scan base-package="edu.pk.library" /> 
 	<context:annotation-config /> 
 
-	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<bean class="org.jtwig.spring.JtwigViewResolver">
 		<property name="prefix">
 			<value>/WEB-INF/views/</value>
 		</property>
 		<property name="suffix">
-			<value>.jsp</value>
+			<value>.html.twig</value>
 		</property>
 	</bean>
 
