@@ -13,6 +13,7 @@
 	<context:component-scan base-package="edu.pk.library" /> 
 	<context:annotation-config /> 
 
+        <mvc:annotation-driven />
 	<bean class="org.jtwig.spring.JtwigViewResolver">
 		<property name="prefix">
 			<value>/WEB-INF/views/</value>
